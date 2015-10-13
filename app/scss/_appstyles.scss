@@ -1,0 +1,27 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+
+@import "base/fonts";
+@import "base/variables";
+@import "base/base";
+
+@import "modules/typeography";
+@import "modules/grid";
+@import "modules/template";
+@import "modules/buttons";
+@import "modules/divider";
+@import "modules/link";
+@import "modules/list";
+@import "modules/mailinglist";
+@import "modules/socialsharing";
+@import "modules/global-nav";
+
+@import "partials/enroll";
+@import "partials/whats-new";
+@import "partials/find-your-fit";
+@import "partials/find-fun";
+@import "partials/we-saved-you-a-space";
+@import "partials/fifty-eight-choices";
+@import "partials/paying-for-college";

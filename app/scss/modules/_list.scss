@@ -1,0 +1,16 @@
+ul,
+ol { margin-left: 23px; }
+
+ul.no-bullets {
+  margin-left: 0;
+  list-style-type: none;
+}
+
+ul.item-margin li, 
+.about-text-section .text-container ul li { margin-bottom: 10px; }
+
+ul.small-list li {
+  margin-bottom: 6px;
+  font-size: $base-font-size;
+  line-height: 17px;
+}

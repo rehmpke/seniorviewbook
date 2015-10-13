@@ -1,0 +1,23 @@
+.hero-shot { 
+  min-height: 598px;
+  color: $text-secondary-colour;
+  background-color: #544746;
+  //background-image: url('#{$imagedir}hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.hero-shot h2{
+  font-size: 46px;
+  font-family: "Brush Script MT", cursive;
+transform: rotate(345deg) ;
+-webkit-transform: rotate(345deg) ;
+-moz-transform: rotate(345deg) ;
+-o-transform: rotate(345deg) ;
+-ms-transform: rotate(345deg) ;
+}
+.hero-shot h2 span {
+  font-size: 58px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}

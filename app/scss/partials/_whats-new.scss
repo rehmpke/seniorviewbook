@@ -1,0 +1,104 @@
+.whats-new{ 
+  min-height: 598px;
+  color: $text-secondary-colour;
+  background-color: #544746;
+  background-image: url('#{$imagedir}whats-new-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.whats-new h2{
+  font-size: 78px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.whats-new h2 span{
+  font-size: 78px;
+  font-family: 'arial';
+}
+
+.whats-new figure {
+  display:inline-block;
+  height: 175px;
+  width: 175px;
+  padding: 20px 15px;
+  margin-right: -37px;
+  border-radius: 50%;
+  vertical-align: top;
+  text-align:center;
+}
+
+.whats-new figcaption {
+  width: 100%;
+  height: 100%;
+}
+.whats-new figcaption a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: $text-secondary-colour;
+  font-weight: bold;
+}
+
+.whats-new figure span {
+  display: block;
+  font-weight: normal;
+}
+
+.whats-new figure:nth-child(1n){background-color:rgba(222, 164, 33, 0.85);}
+.whats-new figure:nth-child(2n){background-color:rgba(134, 163, 58, 0.85);}
+.whats-new figure:nth-child(3n){background-color:rgba(10, 135, 156, 0.85);}
+.whats-new figure:nth-child(4n){background-color:rgba(218, 122, 43, 0.85);}
+.whats-new figure:nth-child(5n){background-color:rgba(163, 56, 98, 0.85);}
+
+@media screen and (max-width: 489px) {
+.whats-new h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.whats-new h2 span{
+  font-size: 36px;
+}
+
+.whats-new figure {
+  display: block;
+  height: 100%;
+  width: 90%;
+  padding: 20px 60px;
+  margin-right: auto;
+  margin-left: auto;
+  vertical-align: top;
+  text-align: center;
+  border-radius: 0;
+}
+
+.whats-new figure:nth-child(1n){background-color:rgba(222, 164, 33, 0.95);}
+.whats-new figure:nth-child(2n){background-color:rgba(134, 163, 58, 0.95);}
+.whats-new figure:nth-child(3n){background-color:rgba(10, 135, 156, 0.95);}
+.whats-new figure:nth-child(4n){background-color:rgba(218, 122, 43, 0.95);}
+.whats-new figure:nth-child(5n){background-color:rgba(163, 56, 98, 0.95);}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 489px) and (max-width: 800px) {
+  .whats-new h2{
+    font-size: 50px;
+    font-family: $secondaryfont-stack;
+    text-indent: 0;
+    line-height: 1.0em;
+  }
+  
+  .whats-new h2 span{
+    font-size: 50px;
+  }
+  
+  .whats-new .figure-set{
+    width: 86%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,67 @@
+button, .button {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 0 0;
+  color: $text-secondary-colour !important;
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none !important;
+  text-align: center;
+  background-color: $button-colour;
+  border-color: $button-colour;
+  border-style: solid;
+  border-width: 0px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: 0;
+  transition: background-color 300ms ease-out;
+}
+
+button i, .button i { vertical-align: middle; }
+
+.our-blue { 
+  @include button(2, $button-colour, 4px); 
+}
+    
+button.our-blue, .button.our-blue {
+  background-color: $button-colour;
+  border-color: $button-colour;
+  color: $text-secondary-colour !important;
+  border-radius: 3px;
+}
+
+button.our-blue:hover, button.our-blue:focus, .button.our-blue:hover, .button.our-blue:focus {
+  background-color: $button-hover-colour;
+}
+
+button.our-blue:hover, button.our-blue:focus, .button.our-blue:hover, .button.our-blue:focus {
+  color: $text-secondary-colour;
+}
+    
+button.xlarge, .button.xlarge {
+  padding: 5px 20px;
+  font-size: 24px;
+}
+
+button.large, .button.large {
+  /* padding: 5px; */
+  font-size: 19px;
+  font-size: 19px;
+}
+
+button.small, .button.small {
+  padding: 5px 10px;
+  font-size: $base-font-size;
+  font-size: 15px;
+}
+
+button.tiny, .button.tiny {
+  padding: 5px 10px;
+  font-size: $base-font-size;
+  font-size: 13px;
+}

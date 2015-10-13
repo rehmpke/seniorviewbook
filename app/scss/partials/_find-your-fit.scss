@@ -1,0 +1,63 @@
+.find-your-fit { 
+  color: $text-secondary-colour;
+  background-color: #00506a; 
+}
+
+.find-your-fit h2{
+  font-size: 78px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.find-your-fit summary{
+  font-size: 28px;
+  font-family: "Artbrush medium";
+}
+
+.find-your-fit summary:focus {
+  outline: none;
+}
+
+.find-your-fit details div {
+  margin-left: 26px;
+}
+
+.find-your-fit details:first-child {
+  margin-top: 60px;
+}
+.find-your-fit details {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 481px) {
+
+.find-your-fit h2{
+  font-size: 36px;
+}
+
+.find-your-fit details:first-child {
+  margin-top: 0;
+}
+
+.find-your-fit details {
+  margin-bottom: 30px;
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+  .find-your-fit h2{
+    font-size: 50px;
+    font-family: $secondaryfont-stack;
+    text-indent: 0;
+    line-height: 1.0em;
+  }
+  
+  .find-your-fit h2 span{
+    font-size: 50px;
+  }
+  
+  .find-your-fit details:first-child {
+    margin-top: 0;
+  }
+}

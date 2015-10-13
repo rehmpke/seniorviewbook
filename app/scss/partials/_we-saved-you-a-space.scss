@@ -1,0 +1,49 @@
+.saved-a-space { 
+  color: $text-secondary-colour;
+  background-color: #546224;
+  // background-image: url('#{$imagedir}whats-new-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -50px;
+}
+
+.saved-a-space h2{ 
+  font-size: 60px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+  margin-top: 65px;
+}
+
+.saved-a-space img{
+  border: 6px solid #ffffff;
+}
+
+.saved-a-space p {
+  font-size: 24px;
+}
+
+.saved-a-space p span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 481px) {
+
+.saved-a-space h2{
+  margin-top: 0;
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+  background-image: none; 
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+.saved-a-space h2{
+    font-size: 50px;
+    font-family: $secondaryfont-stack;
+    text-indent: 0;
+    line-height: 1.0em;
+  }
+}

@@ -1,0 +1,61 @@
+.find-fun { 
+  min-height: 598px;
+  color: $text-secondary-colour;
+  background-color: #544746;
+  background-image: url('#{$imagedir}surf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.find-fun h2{
+  color: $text-secondary-colour;
+  font-size: 68px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+  margin-bottom: 10px;
+}
+
+.find-fun h2 span{
+  font-size: 78px;
+  font-family: 'arial';
+}
+
+.stay-connected h3 {
+  font-size: 29px;
+  font-family: "Artbrush medium";
+  color: #00506a;
+}
+
+@media screen and (max-width: 481px) {
+.find-fun h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.find-fun h2 span{
+  font-size: 36px;
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+.find-fun h2{
+  font-size: 48px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+  .find-fun h2 span{
+    font-size: 50px;
+  }
+}
+
+.clubs {
+  background-color: rgba(255, 0, 12, 0.58);
+  color: $text-secondary-colour;
+  padding: 25px;
+}

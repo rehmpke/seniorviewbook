@@ -1,0 +1,17 @@
+-var pageTitle ="Student life"
+
+doctype html
+html(class="no-js", lang="en")
+  include header
+  body.html.front.not-logged-in.no-sidebars.page-frontpage
+    include jade/navigation-header
+    include jade/find-fun
+    section
+      .row.space-top
+        .column
+            .large-6.columns.text-right
+              img(src='/images/limbo.jpg')
+              img(src='/images/clubs.jpg')
+            .large-6.columns.text-left
+              img(src='/images/chemistry.jpg')
+    include footer

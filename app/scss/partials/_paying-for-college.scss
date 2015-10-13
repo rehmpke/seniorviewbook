@@ -1,0 +1,98 @@
+.paying-college { 
+  color: $text-secondary-colour;
+  background-color: #00506a; 
+}
+
+.paying-college h2{
+  color: $text-secondary-colour;
+  font-size: 78px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.paying-college h3 span {
+  color: $text-secondary-colour;
+  font-size: 33px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.paying-college .blue-text{
+  padding: 20px 20px 5px 20px;
+  color: #00506a;
+  background-color: #ffffff; 
+}
+
+.blue-text ul{
+  margin-left:0;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.blue-text h3{
+    color: #c60c46;
+    font-family: 'Artbrush medium';
+    font-size: 29px;
+    line-height: 1.0em;
+    margin-bottom: 1px;
+}
+
+.blue-text a{
+    color: #c60c46;
+    font-size: 17.6px;
+    text-decoration: underline;
+}
+
+.paying-college ul{
+  list-style: none;
+}
+
+.paying-college ul span{
+ font-weight:bold; 
+}
+
+.paying-college li{
+  margin-bottom: 10px;
+}
+
+.grad-cap-two{
+  background-image:url('#{$imagedir}grad-cap2.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 481px) {
+.paying-college h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.grad-cap-two{
+  background-image:url('#{$imagedir}grad-cap2.png');
+  background-repeat: no-repeat;
+  background-size: 235px;
+  padding-top: 150px;
+  margin-top: 25px;
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+.paying-college h2{
+  font-size: 48px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+}
+
+.grad-cap-two{
+  background-image:url('#{$imagedir}grad-cap2.png');
+  background-repeat: no-repeat;
+  background-size: 235px;
+  padding-top: 150px;
+  margin-top: 25px;
+}
+}

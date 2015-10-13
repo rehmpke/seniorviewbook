@@ -1,0 +1,209 @@
+.global-content { padding-top: 0; }
+
+.global-content.with-padding { padding-top: 25px; }
+
+.global-header {
+  background-color: #d2232a;
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  position: relative;
+  z-index: 2;
+}
+@media only screen and (min-width: 768px) {
+  .global-header.transparent {
+    background-color: transparent;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.dark-bg {
+    background-color: transparent;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 30px, rgba(0, 0, 0, 0.75) 100%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.light-bg {
+    background-color: transparent;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.35) 25px, rgba(255, 255, 255, 0.6) 100%);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.alt {
+    min-height: 50px;
+  }
+}
+.global-header.microsite .microsite-cta {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .global-header.microsite .microsite-cta {
+    display: inline-block;
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.microsite {
+    min-height: 60px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .global-header.transparent + #tabs {
+    margin-top: 84px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .global-nav {
+    padding-top: 15px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .global-nav {
+    padding-top: 10px;
+  }
+}
+@media only screen {
+  .global-nav {
+    padding-top: 0;
+  }
+}
+.global-header.alt .global-nav {
+  padding-bottom: 0;
+  height: auto;
+}
+@media only screen and (min-width: 480px) {
+  .global-header.alt .global-nav {
+    padding-top: 50px;
+  }
+}
+
+.wordmark {
+  display: block;
+  height: 32px;
+  width: 400px;
+  margin: 10px 0;
+  text-indent: -9999px;
+  background-image: url(../images/kankakee-community-college.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top left;
+}
+
+@media screen and (max-width: 481px) {
+  .wordmark {
+    height: 29px;
+    width: 100%;
+    margin: 10px auto;
+    background-size: cover;
+  }
+}
+
+.global-footer {
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  line-height: 20px;
+}
+.global-footer a:hover {
+  color: #999999;
+}
+
+
+.footer-site-map {
+  color: $white;
+  background-color: #222222;
+  font-size: 15px;
+  padding: 50px 0;
+}
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  .footer-site-map {
+    padding: 50px 0 30px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .footer-site-map {
+    padding: 50px 0 30px;
+  }
+}
+
+.footer-site-map h5 {
+  color: $white;
+}
+.footer-site-map a {
+  color: #ccc;
+}
+
+
+.footer-nav {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .global-footer.microsite .footer-nav {
+    text-align: center;
+  }
+}
+.footer-nav li {
+  list-style-type: none;
+  line-height: 25.5px;
+}
+
+
+.footer-logo {
+  position: relative;
+  top: -20px;
+  left: -25px;
+  display: block;
+  height: 25px;
+  width: 333px;
+  margin: 10px 0 0 20px;
+  background-image: url(../images/kankakee-community-college.png);
+  background-size: cover;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 481px) {
+  .footer-logo {
+    left: -24px;
+    height: 25px;
+    width: 298px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 481px) {
+  .footer-logo {
+    left: -27px;
+    margin-bottom: 0;
+  }
+}
+
+
+.footer-copyright {
+  color: #d4d4d4;
+  background-color: #262626;
+  font-size: 13px;
+  padding: 25px 0;
+}
+.footer-copyright a {
+  color: $white;
+}
+@media only screen and (min-width: 480px) {
+  .footer-copyright a {
+    display: block;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .footer-copyright a {
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-copyright-links {
+    display: block;
+  }
+  .footer-copyright-links a {
+    display: block;
+  }
+}

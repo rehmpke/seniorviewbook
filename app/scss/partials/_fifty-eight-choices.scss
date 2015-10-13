@@ -1,0 +1,93 @@
+.fifty-eight-quality-choices { 
+
+  color: $text-secondary-colour;
+  background-color: #e17827; 
+}
+
+.fifty-eight-quality-choices a {
+  color: $text-secondary-colour;
+  text-decoration: underline;  
+}
+
+.fifty-eight-quality-choices h2{
+  height:134px;
+  text-indent: -9999px;
+  background-image: url('#{$imagedir}58.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.fifty-eight-quality-choices h3{
+  font-size: 29px;
+  font-family: "ArtBrush Medium";
+  margin-bottom: 0;
+}
+
+.fifty-eight-quality-choices .information-arrow {
+  height: 500px;
+  background-image: url('#{$imagedir}information-arrow.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.fifty-eight-quality-choices .information-arrow details {
+  position: absolute;
+  left: 500px;
+  top: 255px;
+  width:193px;
+}
+
+.fifty-eight-quality-choices .information-arrow summary {
+  font-size: 29px;
+  font-family: "ArtBrush Medium";
+}
+
+.fifty-eight-quality-choices .information-arrow summary {
+  outline: none;
+}
+
+@media (max-width: 481px) {
+ 
+ .fifty-eight-quality-choices .information-arrow {
+  height: 270px;
+}
+
+.fifty-eight-quality-choices .information-arrow details {
+  position: relative;
+  left: 0;
+  top: 10px;
+  width:193px;
+}
+
+.fifty-eight-quality-choices h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  text-indent: 0;
+  line-height: 1.0em;
+  background-image: none; 
+}
+}
+
+/* Portrait and Landscape */
+@media screen and (min-width: 482px) and (max-width: 1023px) {
+  .fifty-eight-quality-choices h2 {
+    background-size: 98%;
+  } 
+  
+  .fifty-eight-quality-choices .information-arrow details {
+  position: relative;
+  left: 0;
+  top: 10px;
+  width:193px;
+}
+  
+  .fifty-eight-quality-choices .information-arrow {
+  height: 500px;
+  background-image: url('#{$imagedir}information-arrow.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+}
