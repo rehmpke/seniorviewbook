@@ -78,20 +78,20 @@
 .wordmark {
   display: block;
   height: 32px;
-  width: 400px;
+  width: 439px;
   margin: 10px 0;
   text-indent: -9999px;
-  background-image: url(../images/kankakee-community-college.png);
+  background-image: url(../images/Kankakee-Community-College-logo-arrow.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:top left;
+  background-position: top left;
 }
 
 @media screen and (max-width: 481px) {
   .wordmark {
-    height: 29px;
-    width: 100%;
-    margin: 10px auto;
+    height: 20px;
+    width: 84%;
+    margin: 10px 0;
     background-size: cover;
   }
 }
