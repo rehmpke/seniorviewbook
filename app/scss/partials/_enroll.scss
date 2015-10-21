@@ -32,3 +32,23 @@
   font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 450px) {
+  .enroll { 
+  min-height: 340px;
+}
+
+  .enroll h2{
+  font-size: 36px;
+  font-family: $secondaryfont-stack;
+  line-height: 1.0em;
+}
+
+.enroll .panel{
+  width:340px;
+}
+  
+  .enroll li{
+  font-size: 30px;
+  }
+}
